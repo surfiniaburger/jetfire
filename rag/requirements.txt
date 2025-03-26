@@ -1,0 +1,14 @@
+torch
+transformers
+langgraph # Note: 'langgraph', not 'langraph'
+sentence-transformers
+chromadb
+streamlit
+opencv-python-headless # Use headless for server environments
+Pillow # For image handling
+# Add tesseract dependencies if you implement OCR later
+# pytesseract
+# tesseract # Needs OS-level installation
+accelerate # Often needed by transformers for efficient loading
+bitsandbytes # For potential model quantization (optional)
+faiss-cpu # Keep if you might switch, but ChromaDB is primary here
